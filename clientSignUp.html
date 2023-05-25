@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./clientSignUp.css">
+    <title>Softwork</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="firstlink text-decoration-none">Softwork</a>
+        <span class="me-5">Looking for work?<a href="./freelancerSignUp.html" class="green">Apply as talent</a> </span>
+    </nav>
+    <main class="d-flex justify-content-center">
+        <div class="bordered d-flex align-items-center mt-5">
+            <h3 id="heading">Sign up to hire talent</h3>
+            <button class="btn mt-3 btn2 d-flex justify-content-center bg-white align-items-center">
+                <i class="fa fa-apple me-2"></i>
+                <span>Continue with Apple</span>
+            </button>
+            <button class="btn mt-2 btn1 d-flex align-items-center">
+                <img src="../images/login1.png" width="40px" class="p-2 bg-white">
+                <section class="d-flex justify-content-center" style="width:90%;">
+                    <span class="text-white">Continue with Google</span>
+                </section>
+            </button>
+            <div class="d-flex mt-2 text-secondary lineor">
+                <sup style="width:47%;">
+                    <hr>
+                </sup>
+                <span class="ms-1 me-1">or</span>
+                <sup style="width:47%;">
+                    <hr>
+                </sup>
+            </div>
+            <div class="w-100 d-flex justify-content-center inputdiv">
+                <input class="p-2 input1 me-5" placeholder="First Name" id="firstName">
+                <input class="p-2 input1" placeholder="Last Name" id="lastName">
+                <input placeholder="Email" type="email" class="input2 p-2 mt-4" id="email">
+                <div class="mt-4 input2 d-flex align-items-center">
+                    <input placeholder="Password" type="password" class="p-2" id="passwordInput">
+                    <i class="fa fa-eye-slash" id="eyeSlash" onclick="changeToText()"></i>
+                    <i class="fa fa-eye" id="eye" onclick="changeToPassword()"></i>
+                </div>
+                <select class="input2 p-2 mt-4">
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Nigeria">London</option>
+                    <option value="Nigeria">America</option>
+                    <option value="Nigeria">China</option>
+                </select>
+                <div class="mt-4 w-100 ms-5">
+                    <input type="checkbox" class="checkbox" id="checked">
+                    <small>Send me emails with tips on how to find talent that fits my needs.</small>
+                </div>
+                <div class="mt-4 w-100 ms-5">
+                    <input type="checkbox" class="checkbox" id="clickToCheck">
+                    <small>Yes, I understand and agree to the <a href="#" class="green">Softwork Terms of Service</a>,
+                    including the <a href="#" class="green">User Agreement</a> and <a href="#" class="green">Privacy <br>
+                    Policy</a>.</small>
+                </div>
+            </div>
+            <button class="btn mt-3" onclick="saveClientSignUp()">
+                <a class="text-decoration-none text-white" id="login">Create my account</a>
+            </button>
+            <small class="mt-4" id="puppet2">Already have an account? <a href="./logIn.html" class="green">Log In</a></small>
+        </div>
+    </main>
+    <div class="d-flex align-items-center bottom mt-4 p-5">
+        <span class="text-white mb-4">&copy; 2015-2022 Softwork Global Inc.</span>
+        <a href="#" class="text-white mt-2">Terms of Service</a>
+        <a href="#" class="text-white mt-2">Privacy Policy</a>
+        <a href="#" class="text-white mt-2">Accessibility</a>
+    </div>
+</body>
+
+</html>
+<script src="./clientSignUp.js"></script>

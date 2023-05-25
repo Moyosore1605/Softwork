@@ -1,0 +1,92 @@
+body{
+    font-size:15px;
+    line-height:18px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+nav{
+    padding:26px 0px!important;
+    background-color:white;
+    color:rgb(113, 126, 105);
+    align-items: center;
+    border-bottom:1px solid lightgrey;
+}
+.firstlink{
+    color:rgb(20, 168,0);
+    font-size:20px;
+    margin-left:150px;
+}
+.firstlink:hover{
+    color: rgb(20, 168, 0);
+}
+#link{
+    text-decoration:none;
+}
+.bordered{
+    flex-direction:column;
+    width:40%;
+    border:1px solid lightgrey;
+    border-radius:5px;
+    padding:40px 0px;
+}
+.inputdiv{
+    border:1px solid lightgrey;
+    color:grey;
+    border-radius:5px;
+    width:65%;
+    padding:10px 0px 10px 13px;
+}
+input{
+    border:none;
+    width:93%;
+}
+input:focus{
+    outline:none;
+}
+.btn{
+    width:65%;
+    border-radius:50px;
+    font-weight:600;
+    background-color: rgb(20, 168, 0);
+    padding:8px;
+}
+.btn1{
+    padding:0px;
+    background-color:rgb(66, 133, 244);
+}
+.btn2{
+    font-weight:100;
+    border:1px solid black;
+}
+.btn1 img{
+    border-radius:100%;
+}
+.lineor{
+    width:60%;
+}
+.colflex{
+    border-top:1px solid lightgrey;
+    width:100%;
+    flex-direction: column;
+}
+.colflex div{
+    width:65%;
+}
+.btn3{
+    width:45%;
+    border:1px solid rgb(20, 168, 0);
+    color:rgb(20, 168, 0);
+}
+.btn3 a{
+    color: rgb(20, 168, 0);
+}
+.bottom{
+    width:100%;
+    background-color: rgb(0, 30, 0);
+    flex-direction:column;
+}
+.bottom a{
+    text-decoration:none;
+}
+.bottom a:hover{
+    text-decoration:underline;
+}

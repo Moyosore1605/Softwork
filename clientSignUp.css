@@ -1,0 +1,112 @@
+body{
+    font-size:15px;
+    line-height:18px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+nav{
+    padding:26px 0!important;
+    background-color:white;
+    color:rgb(113, 126, 105);
+    align-items: center;
+    border-bottom:1px solid lightgrey;
+}
+.green{
+    text-decoration:none;
+    color:rgb(20, 168, 0);
+}
+.green:hover{
+    text-decoration:underline;
+    color:rgb(20, 168, 0);
+}
+.firstlink{
+    color:rgb(20, 168,0);
+    font-size:20px;
+    margin-left:150px;
+}
+.firstlink:hover{
+    color: rgb(20, 168, 0);
+}
+.bordered{
+    flex-direction:column;
+    width:54%;
+    border:1px solid lightgrey;
+    border-radius:5px;
+    padding:40px 0px;
+}
+.btn{
+    width:90%;
+    border-radius:50px;
+    font-weight:600;
+    background-color: rgb(20, 168, 0);
+    padding:8px;
+}
+.btn1{
+    padding:0px;
+    background-color:rgb(66, 133, 244);
+}
+.btn2{
+    font-weight:100;
+    border:1px solid black;
+}
+.btn1 img{
+    border-radius:100%;
+}
+.lineor{
+    width:90%;
+}
+.inputdiv{
+    flex-wrap:wrap;
+}
+input{
+    border:1px solid lightgrey;
+    color:grey;
+    border-radius:5px;
+}
+input:hover{
+    border:1px solid black;
+}
+input:focus{
+    outline:0px;
+    border:1px solid rgb(20, 168, 0);
+}
+.input1{
+    width:42%;
+}
+.input2{
+    width:90%;
+}
+div.input2{
+    border-radius:5px;
+    border:1px solid lightgrey;
+}
+div.input2:hover{
+    border:1px solid black;
+}
+div.input2 input{
+    width:97%;
+    border:none;
+}
+div.input2 input:focus{
+    outline:0px;
+}
+.fa-eye{
+    display:none;
+}
+select{
+    border:1px solid lightgrey;
+    color: grey;
+}
+.checkbox{
+    accent-color:rgb(20,168,0);
+}
+.bottom{
+    width:100%;
+    background-color: rgb(0, 30, 0);
+    flex-direction:column;
+}
+.bottom a{
+    text-decoration:none;
+}
+.bottom a:hover{
+    text-decoration:underline;
+}

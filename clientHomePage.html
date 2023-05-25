@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./clientSignUp.css">
+    <title>Softwork</title>
+    <style>
+        nav {
+            padding-right: 20% !important;
+        }
+
+        .icon1 {
+            font-size: 35px;
+        }
+
+        .bordered {
+            border: none;
+            width: 50% !important;
+            padding: 3%;
+        }
+
+        .borderbottom {
+            color: grey;
+            border-bottom: 1px solid lightgrey;
+        }
+
+        i {
+            font-size: 20px !important;
+        }
+
+        .btn {
+            width: 170px;
+            height: 40px;
+        }
+
+        .card {
+            width: 370px;
+            box-shadow: 0px 0px 5px lightgrey;
+            margin-left: 59%;
+            position: absolute;
+            display: none;
+        }
+
+        .card div,
+        a {
+            height: 45px;
+            align-items: center;
+            color: grey;
+        }
+
+        a:hover {
+            color: grey;
+            background-color: lightgrey;
+        }
+
+        .card div:hover {
+            background-color: lightgrey;
+        }
+
+        #displayFullName {
+            color: rgb(20, 168, 0);
+        }
+
+        .p1 {
+            padding-left: 20px !important;
+        }
+        textarea{
+            color:grey;
+        }
+        textarea:enabled{
+            border-color:lightgrey!important;
+            outline-color:lightgrey!important;
+        }
+        #postJob{
+            display:none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar pt-3 pb-3 align-items-center">
+        <a href="#" class="firstlink d-flex align-items-center text-decoration-none">Softwork</a>
+        <button class="btn bg-white btn-unfocus" onclick="dropdown()">
+            <i class="fa fa-user-circle-o icon1 text-secondary"></i>
+        </button>
+    </nav>
+    <div class="card pt-3 pb-2 mt-1 text-secondary" id="card" onmouseleave="stopdropdown(this)">
+        <div class="d-flex p-1 ps-3 p1">
+            <i class="fa fa-user"></i>
+            <section class="ms-3">
+                <span id="displayFullName" class="m-0"></span> <br>
+                <small id="displayUserType"></small>
+            </section>
+        </div>
+        <a onclick="closeAccount()" class="d-flex align-items-center text-decoration-none p-1 ps-3">
+            <i class="material-icons">settings</i>
+            <span class="ms-3">Close Account</span>
+        </a>
+        <a href="./logIn.html" class="d-flex align-items-center text-decoration-none p-1 ps-3">
+            <i class="material-icons">keyboard_backspace</i>
+            <span class="ms-3">Log out</span>
+        </a>
+    </div>
+    <main class="d-flex justify-content-center mt-5">
+        <div class="bordered">
+            <h1 id="displayName" class="text-dark"></h1>
+            <div class="d-flex align-items-center borderbottom pt-4 pb-4">
+                <i class="fa fa-user"></i>
+                <span class="ms-4">Answer a few questions and start building your profile</span>
+            </div>
+            <div class="d-flex align-items-center borderbottom pt-4 pb-4">
+                <i class="fa fa-envelope-open"></i>
+                <span class="ms-4">Post jobs required for our capable freelancers to work on</span>
+            </div>
+            <div class="d-flex align-items-center borderbottom pt-4 pb-4">
+                <i class="material-icons">payment</i>
+                <span class="ms-4">Pay and be sure you won't be scammed boss</span>
+            </div>
+            <div class="d-flex text-secondary mt-3">
+                <button class="btn text-white" onclick="start()">Get Started</button>
+                <span class="ms-3">It only takes 5-10 minutes and you can edit it later.<br>We'll save as you go.</span>
+            </div>
+            <!-- <div id="postJob" class="mt-5">
+                <h3>
+                    Post a job you need done and be sure it will be, by our most competent freelancers right here on softwork.
+                </h3>
+                <input placeholder="Language(s) needed">
+                <textarea id="job" cols="70" rows="10" class="p-2"></textarea> <br>
+                <button class="btn text-white mt-3" onclick="postJob()">Post Job</button>
+            </div> -->
+        </div>
+    </main>
+</body>
+
+</html>
+<script src="./clientHomePage.js"></script>

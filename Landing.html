@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./Landing.css">
+    <title>Softwork</title>
+</head>
+
+<body>
+    <nav class="navbar p-0" onmouseleave="revert()">
+        <main class="navup navbar justify-content-around pt-3 pb-3">
+            <a href="#" class="firstlink text-decoration-none" onmouseover="revert()">Softwork</a>
+            <div class="d-flex justify-content-center align-items-center dropnavdiv" onmouseover="changer(main1)">
+                <span>Find Talent</span>
+                <i class="fa fa-angle-down i1 ms-2"></i>
+                <i class="fa fa-angle-up i2 ms-2"></i>
+            </div>
+            <div class="d-flex justify-content-center align-items-center dropnavdiv" onmouseover="changer(main2)">
+                <span>Find Work</span>
+                <i class="fa fa-angle-down i1 ms-2"></i>
+                <i class="fa fa-angle-up i2 ms-2"></i>
+            </div>
+            <div class="d-flex justify-content-center align-items-center dropnavdiv" onmouseover="changer(main3)">
+                <span>Why Softwork</span>
+                <i class="fa fa-angle-down i1 ms-2"></i>
+                <i class="fa fa-angle-up i2 ms-2"></i>
+            </div>
+            <div onmouseover="revert()">
+                <span>Enterprise</span>
+            </div>
+            <main class="d-flex ms-5" onmouseover="revert()">
+                <div class="d-flex justify-content-between align-items-center indiv p-1 ps-3">
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-angle-down"></i>
+                    <input placeholder="Search">
+                </div>
+                <button class="btn ms-3 me-3 text-secondary"><a href="./logIn.html" class="l1">Log In</a></button>
+                <button class="btn btngreen text-white">
+                    <a href="./signUp.html" class="text-decoration-none text-white">Sign Up</a> 
+                </button>
+            </main>
+        </main>
+        <main class="maind-none">
+            <main id="maind-none1">
+                <div class="ps-2 divd-none1 mt-3">
+                    <div class="d-flex justify-content-between" id="paj" onmouseover="change(subdiv1,div1)">
+                        <section>
+                            <h5>Post a job and hire a pro</h5>
+                            <small>Talent Marketplace</small>
+                        </section>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                    <div class="d-flex justify-content-between" id="bab" onmouseover="change(subdiv2,div2)">
+                        <section>
+                            <h5>Browse and buy projects</h5>
+                            <small>Project Catalog</small>
+                        </section>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                    <div class="d-flex justify-content-between" id="lus" onmouseover="change(subdiv3,div3)">
+                        <section>
+                            <h5>Let us find you the right talent</h5>
+                            <small>Talent Scout</small>
+                        </section>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="divd-none2 mt-4 ps-5 d-flex">
+                    <div id="divchange1">
+                        <section class="secnull mb-3"></section>
+                        <section class="d-flex">
+                            <h5>Talent Marketplace</h5>
+                            <sup>TM</sup>
+                        </section>
+                        <div class="d-flex">
+                            <section>
+                                <small>Learn about working with talents or<br>explore your specific hiring
+                                    needs.</small>
+                                <a href="#" class="green mt-2 d-block">
+                                    <small>Hire on Talent Marketplace
+                                        <i class="fa fa-arrow-right ms-2"></i>
+                                    </small>
+                                </a>
+                            </section>
+                            <ul class="ms-5 ps-5">
+                                <li><a href="#">Development & IT</a></li>
+                                <li><a href="#">Design & Creative</a></li>
+                                <li><a href="#">Sales & Marketing</a></li>
+                                <li><a href="#">Writing & Translation</a></li>
+                                <li><a href="#">Admin & Customer Support</a></li>
+                                <li><a href="#">Finance & Accounting</a></li>
+                                <li><a href="#">HR & Training</a></li>
+                                <li><a href="#">Legal</a></li>
+                                <li><a href="#">Engineering & Architecture</a></li>
+                                <li><a href="#">Hire freelancers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="divchange2">
+                        <section class="secnull mb-3"></section>
+                        <section class="d-flex">
+                            <h5>Project Catalog</h5>
+                            <sup>TM</sup>
+                        </section>
+                        <div class="d-flex justify-content-between pe-5">
+                            <section>
+                                <small>Browse and buy projects<br>that have clear scope<br>and price.</small>
+                                <a href="#" class="green mt-2 d-block">
+                                    <small>Browse Project Catalog <i class="fa fa-arrow-right ms-2"></i></small>
+                                </a>
+                            </section>
+                            <main class="d-flex cardsechmain ms-3">
+                                <section class="cardsech">
+                                    <img src="../images/upwork16.webp" width="100%">
+                                    <p>Logo Design</p>
+                                </section>
+                                <section class="cardsech">
+                                    <img src="../images/upwork17.webp" width="100%">
+                                    <p>Articles & Blog Posts</p>
+                                </section>
+                                <section class="cardsech">
+                                    <img src="../images/upwork18.webp" width="100%">
+                                    <p>Wordpress</p>
+                                </section>
+                                <section class="cardsech">
+                                    <img src="../images/upwork19.webp" width="100%">
+                                    <p>Social Media <br>Marketing</p>
+                                </section>
+                                <section class="cardsech">
+                                    <img src="../images/upwork20.jpg" width="100%">
+                                    <p>Video Editing</p>
+                                </section>
+                                <section class="cardsech">
+                                    <img src="../images/upwork21.webp" width="100%">
+                                    <p>SEO</p>
+                                </section>
+                            </main>
+                        </div>
+                    </div>
+                    <div id="divchange3">
+                        <section class="secnull mb-3"></section>
+                        <section class="d-flex">
+                            <h5>Talent Scout</h5>
+                            <sup>TM</sup>
+                        </section>
+                        <div class="d-flex">
+                            <section>
+                                <small>Learn how our recruiters find you<br>expert developers, designers,
+                                    and<br>marketers.</small>
+                                <a href="#" class="green mt-2 d-block">
+                                    <small>Talk to Talent Scout <i class="fa fa-arrow-right ms-2"></i></small>
+                                </a>
+                            </section>
+                            <ul>
+                                <li><a href="#">Development & IT</a></li>
+                                <li><a href="#">Design & Creative</a></li>
+                                <li><a href="#">Marketing</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <main id="maind-none2" class="p-4">
+                <div class="divbackgol">
+                    <h5>Ways to earn</h5>
+                    <small>Learn why softwork has the right <br>opportunities for you.</small>
+                </div>
+                <div class="ms-5 divbackgol">
+                    <h5>Find work for your skills</h5>
+                    <small>Explore the kind of work available in<br>your field.</small>
+                </div>
+            </main>
+            <main id="maind-none3" class="pt-4 pb-4">
+                <div class="secbackgol">
+                    <section class="p-3">
+                        <h5>Sucess Stories</h5>
+                        <small>Discover how teams work <br>strategically and grow together</small>
+                    </section>
+                    <section class="mt-3 p-3">
+                        <h5>How to Hire</h5>
+                        <small>Learn about the different ways to get <br>work done</small>
+                    </section>
+                </div>
+                <div class="secbackgol">
+                    <section class="p-3">
+                        <h5>Reviews</h5>
+                        <small>See what its like to collaborate on<br>Softwork</small>
+                    </section>
+                    <section class="mt-3 p-3">
+                        <h5>How to Find Work</h5>
+                        <small>Learn about how to grow your <br>independent career</small>
+                    </section>
+                </div>
+                <div class="secbackgol slibgwid">
+                    <h5>When work gets done</h5>
+                    <section class="p-3">
+                        <small>Guides</small><br>
+                        <small style="font-size:17px;margin-top:10px;">Getting Started as a Freelancer</small>
+                    </section>
+                    <section class="mt-2 p-3">
+                        <small>Guides</small><br>
+                        <small style="font-size:17px;margin-top:10px;">Growing your Freelance career</small>
+                    </section>
+                    <section class="mt-2 p-3">
+                        <small>Guides</small><br>
+                        <small style="font-size:17px;margin-top:10px;">Hiring & Working with Independent Talent</small>
+                    </section>
+                    <small>
+                        <a href="#" class="green mt-2 d-block">See resources<i class="fa fa-arrow-right ms-2"></i></a>
+                    </small>
+                </div>
+            </main>
+        </main>
+    </nav>
+    <main class="d-flex pt-4 linkmain justify-content-around pb-4">
+        <a href="#">Development & IT</a>
+        <a href="#">Design & Creative</a>
+        <a href="#">Sales & Marketing</a>
+        <a href="#">Writing & Translation</a>
+        <a href="#">Admin & Customer Support</a>
+        <section class="dropsm">
+            <section class="d-flex align-items-center">
+                <span class="hogreen">More</span>
+                <i class="fa fa-angle-down ms-2"></i>
+            </section>
+            <section class="bg-white dropsec">
+                <p class="p-3">Finance & Accounting</p>
+                <p class="p-3">HR & Training</p>
+                <p class="p-3">Legal</p>
+                <p class="p-3">Engineering & Architecture</p>
+            </section>
+        </section>
+    </main>
+    <main class="bodymain d-flex justify-content-between mt-5 pb-5">
+        <div>
+            <h3 class="text-green mb-4">How work <br>should work</h3>
+            <h5 class="textgrey mb-4">Forget the old rules. You can have the best.
+                <br>Right now. Right here.
+            </h5>
+            <button class="btn btngreen me-2 text-white">Find Talent</button>
+            <button class="btn btn2">Find Work</button>
+            <section class="logos">
+                <p class="text-grey">Trusted by</p>
+                <section class="d-flex justify-content-between">
+                    <img src="../images/upwork2.svg" width="20%">
+                    <img src="../images/upwork3.svg" width="20%">
+                    <img src="../images/upwork4.svg" width="20%">
+                    <img src="../images/upwork5.svg" width="20%">
+                </section>
+            </section>
+        </div>
+        <img src="../images/upwork1.jpg" width="43%">
+    </main>
+    <main class="bodymain">
+        <div class="divlargetext">
+            <h2>Browse talent by category</h2>
+            <small class="text-secondary">Looking for work ?</small>
+            <a href="#" class="text-decoration-none">Browse jobs</a>
+        </div>
+        <div class="d-flex justify-content-between divcard mt-5">
+            <div class="card">
+                <h4>Development & IT</h4>
+                <section class="d-flex justify-content-between">
+                    <section>
+                        <img src="../images/upwork6.svg" width="13px">
+                        <small>4.85/5</small>
+                    </section>
+                    <small>1,853 skills</small>
+                </section>
+            </div>
+            <div class="card">
+                <h4>Design & Creative</h4>
+                <section class="d-flex justify-content-between">
+                    <section>
+                        <img src="../images/upwork6.svg" width="13px">
+                        <small>4.91/5</small>
+                    </section>
+                    <small>968 skills</small>
+                </section>
+            </div>
+            <div class="card">
+                <h4>Sales & Marketing</h4>
+                <section class="d-flex justify-content-between">
+                    <section>
+                        <img src="../images/upwork6.svg" width="13px">
+                        <small>4.77/5</small>
+                    </section>
+                    <small>392 skills</small>
+                </section>
+            </div>
+            <div class="card">
+                <h4>Writing & <br> Translation</h4>
+                <section class="d-flex justify-content-between">
+                    <section>
+                        <img src="../images/upwork6.svg" width="13px">
+                        <small>4.92/5</small>
+                    </section>
+                    <small>505 skills</small>
+                </section>
+            </div>
+            <div class="card">
+                <h4>Admin & Customer <br> Support</h4>
+                <section class="d-flex justify-content-between">
+                    <section>
+                        <img src="../images/upwork6.svg" width="13px">
+                        <small>4.77/5</small>
+                    </section>
+                    <small>508 skills</small>
+                </section>
+            </div>
+            <div class="card">
+                <h4>Finance & <br> Accounting</h4>
+                <section class="d-flex justify-content-between">
+                    <section>
+                        <img src="../images/upwork6.svg" width="13px">
+                        <small>4.79/5</small>
+                    </section>
+                    <small>214 skills</small>
+                </section>
+            </div>
+            <div class="card">
+                <h4>Engineering & <br> Architecture</h4>
+                <section class="d-flex justify-content-between">
+                    <section>
+                        <img src="../images/upwork6.svg" width="13px">
+                        <small>4.85/5</small>
+                    </section>
+                    <small>650 skills</small>
+                </section>
+            </div>
+            <div class="card">
+                <h4>Legal</h4>
+                <section class="d-flex justify-content-between">
+                    <section>
+                        <img src="../images/upwork6.svg" width="13px">
+                        <small>4.85/5</small>
+                    </section>
+                    <small>133 skills</small>
+                </section>
+            </div>
+        </div>
+    </main>
+    <main>
+
+    </main>
+    <main class="bodymain1 d-flex justify-content-between">
+        <div>
+            <h4 class="mb-1">Need hiring help?</h4>
+            <small class="text-secondary">Let our recruiters find you pre-vetted talent within 2 days. Available in
+                tech, creative, and marketing.</small><br>
+            <button class="btn text-white btn-green mt-4">Talk to a recruiter</button>
+        </div>
+        <img src="../images/upwork7.svg">
+    </main>
+    <main class="bodymain2 d-flex">
+        <div class="largeimage me-5 d-flex">
+            <section>
+                <h2 class="text-dark mb-3">Why businesses <br> turn to Softwork</h2>
+                <div class="d-flex mb-3">
+                    <i class="material-icons text-dark">stars</i>
+                    <section class="iconflexedtext ms-3">
+                        <h4 class="text-dark mb-0">Proof of quality</h4>
+                        <small>Check any pro’s work samples, client reviews, and <br> identity verification.</small>
+                    </section>
+                </div>
+                <div class="d-flex mb-3">
+                    <i class="fa fa-dollar bg-dark text-white d-flex justify-content-center"></i>
+                    <section class="iconflexedtext ms-3">
+                        <h4 class="text-dark mb-0">No cost until you hire</h4>
+                        <small>Interview potential fits for your job, negotiate rates, and <br> only pay for work you
+                            approve.</small>
+                    </section>
+                </div>
+                <div class="d-flex">
+                    <i class="fa fa-check-circle text-dark"></i>
+                    <section class="iconflexedtext ms-3">
+                        <h4 class="text-dark mb-0">Safe and secure</h4>
+                        <small>Focus on your work knowing we help protect your data <br> and privacy. We’re here with
+                            24/7 support if you need it.</small>
+                    </section>
+                </div>
+            </section>
+            <img src="../images/upwork8.png" class="absoluteimage" width="24%">
+        </div>
+        <div class="largeimage1">
+            <h4>We’re <br> the world's work <br> marketplace</h4>
+            <div class="d-flex">
+                <i class="fa fa-star"></i>
+                <section class="text-white">
+                    <h4>4.9/5</h4>
+                    <small>Clients rate professionals on upwork</small>
+                </section>
+            </div>
+            <div class="d-flex">
+                <i class="fas fa-star"></i>
+                <section class="text-white">
+                    <h4>Award winner</h4>
+                    <small>G2's 2021 Best Software Awards</small>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!-- <main class="backgroundmain bodymain2 text-white p-3">
+        <h4>For clients</h4>
+        <h1>Find talent <br> your way</h1>
+        <h4>Work with the largest network of independent <br>professionals and get things done-from quick <br>
+        turnarounds to big transformations.</h4>
+        <div class="d-flex">
+            <section class="card text-white">
+                <h3>Post a job <br> and hire a pro</h3>
+                <h5>Talent Marketplace<sup>TM</sup>
+                <i class="fa fa-arrow-right"></i></h5>
+            </section>
+            <section class="card text-white">
+                <h3>Browse and<br> buy projects</h3>
+                <h5>Project Catalog<sup>TM</sup>
+                    <i class="fa fa-arrow-right"></i>
+                </h5>
+            </section>
+            <section class="card text-white">
+                <h3>Let us hep you find <br> the right talent</h3>
+                <h5>Talent Scout<sup>TM</sup>
+                    <i class="fa fa-arrow-right"></i>
+                </h5>
+            </section>
+        </div>
+    </main> -->
+    <main class="imgflex bodymain2 d-flex">
+        <img src="../images/upwork10.jpg" width="51%">
+        <div class="text-white divimgflex p-5">
+            <h4>For talent</h4>
+            <h1 class="mb-4">Find great <br> work</h1>
+            <h5>Meet clients you're excited to work with and take <br> your career or business to new heights</h5>
+            <div class="d-flex text-white bordertop justify-content-between">
+                <h5>Find opportunities <br> for very stage of <br> your freelance <br> career</h5>
+                <h5>Control when, <br>where, and how <br> you work</h5>
+                <h5>Explore different <br> ways to earn</h5>
+            </div>
+            <button class="btn bg-white text-primary mt-3"><a href="#">Find Opportunities</a></button>
+        </div>
+    </main>
+    <main class="bodymain2">
+        <h1>Trusted by leading <br> brands and startups</h1>
+        <div id="carouselExample" class="carousel slide desk1" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex">
+                        <section class="bgblueish text-white p-4">
+                            <h4>Nasdaq</h4>
+                            <h4>"Softwork enables us to differentiate<br>ourselves from our competitors and<br>produce
+                                content at a higher
+                                caliber."</h4>
+                            <p>Josh Machiz, Chief Digital Officer</p>
+                            <section class="marginup text-white">
+                                <p>Results</p>
+                                <div class="d-flex bordertop m-0 justify-content-between text-white">
+                                    <section class="text-white">
+                                        <h4>Emmy Winning</h4>
+                                        <p>Facebook watch program</p>
+                                    </section>
+                                    <section class="text-white">
+                                        <h4>Millions</h4>
+                                        <p>of impressions generated<br>per client per IPO</p>
+                                    </section>
+                                </div>
+                            </section>
+                        </section>
+                        <section class="ms-4 bgreddish text-white p-4">
+                            <h4>Microsoft</h4>
+                            <h4>"One of the advantages of utilizing<br>freelancers is finding talent
+                                withdifferent<br>skills quickly as our
+                                needs change."</h4>
+                            <p>Carol Taylor, Director of Content Experience</p>
+                            <section class="marginup text-white">
+                                <p>Results</p>
+                                <div class="d-flex bordertop m-0 justify-content-between text-white">
+                                    <section class="text-white">
+                                        <h4>50% Faster</h4>
+                                        <p>launch of projects</p>
+                                    </section>
+                                    <section class="text-white">
+                                        <h4>10,000</h4>
+                                        <p>projects completed</p>
+                                    </section>
+                                </div>
+                            </section>
+                        </section>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex">
+                        <section class="bgblueish text-white p-4">
+                            <h4>GoDaddy</h4>
+                            <h4>"I don't think business would have grown<br>as fast or as well if not for the
+                                freelancers'<br>expertise and
+                                ability to adapt."</h4>
+                            <p>Anthony Massarweh, Program manager</p>
+                            <section class="marginup text-white">
+                                <p>Results</p>
+                                <div class="d-flex bordertop m-0 justify-content-between text-white">
+                                    <section class="text-white">
+                                        <h4>72-Hour</h4>
+                                        <p>average turnaround<br>on websites</p>
+                                    </section>
+                                    <section class="text-white">
+                                        <h4>3x Faster</h4>
+                                        <p>launch of new program</p>
+                                    </section>
+                                </div>
+                            </section>
+                        </section>
+                        <section class="bgreddish ms-4 text-white backgroundsec d-flex">
+                            <div class="bggreen d-flex p-4">
+                                <p>And many more</p>
+                                <img src="../images/upwork11.svg" width="35%">
+                                <img src="../images/upwork12.svg" width="50%">
+                                <img src="../images/upwork13.svg" width="25%">
+                                <img src="../images/upwork14.svg" width="35%">
+                                <img src="../images/upwork15.svg" width="35%">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev carbtn" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev carsp">
+                    <i class="fa fa-long-arrow-left text-white"></i>
+                </span>
+            </button>
+            <button class="carousel-control-next carbtn" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next carsp">
+                    <i class="fa fa-long-arrow-right text-white"></i>
+                </span>
+            </button>
+        </div>
+    </main>
+    <main class="bodymain2 mt-5 mb-0 d-flex linkmain1 p-5">
+        <div class="hgreen me-5">
+            <h2 style="color:rgb(20,168,0);">Top skills</h2>
+            <h2>Trending skills</h2>
+            <h2>Top skills in US</h2>
+            <h2>Project Catalog<sup>TM</sup> </h2>
+        </div>
+        <ul class="ms-5 me-5">
+            <li><a href="#">Data Entry Specialists</a></li>
+            <li><a href="#">Video Editors</a></li>
+            <li><a href="#">Data Analysts</a></li>
+            <li><a href="#">Shopify Developer</a></li>
+            <li><a href="#">Ruby on Rails Developer</a></li>
+            <li><a href="#">Android Developer</a></li>
+            <li><a href="#">Bookkeeper</a></li>
+            <li><a href="#">Content Writer</a></li>
+            <li><a href="#">Copywriter</a></li>
+            <li><a href="#">Database Administrator</a></li>
+            <li><a href="#">Data Scientist</a></li>
+            <li><a href="#">Front-End Developer</a></li>
+            <li><a href="#">Game Developer</a></li>
+            <li><a href="#">Graphics Designer</a></li>
+            <li><a href="#">iOS Developer</a></li>
+            <li><a href="#">Java Developer</a></li>
+        </ul>
+        <ul class="ms-5">
+            <li><a href="#">JavaScript Developer</a></li>
+            <li><a href="#">Logo Designer</a></li>
+            <li><a href="#">Mobile App Developer</a></li>
+            <li><a href="#">PHP Developer</a></li>
+            <li><a href="#">Python Developer</a></li>
+            <li><a href="#">Resume Writer</a></li>
+            <li><a href="#">SEO Expert</a></li>
+            <li><a href="#">Social Media Manager</a></li>
+            <li><a href="#">Software Developer</a></li>
+            <li><a href="#">Software Engineer</a></li>
+            <li><a href="#">Technical Writer</a></li>
+            <li><a href="#">UI Designer</a></li>
+            <li><a href="#">UX Designer</a></li>
+            <li><a href="#">Virtual Assistant</a></li>
+            <li><a href="#">Web Designer</a></li>
+            <li><a href="#">Wordpress Developer</a></li>
+        </ul>
+    </main>
+    <main class="lastmain pb-5">
+        <div class="d-flex justify-content-between">
+            <ul>
+                <li>
+                    <p>For Clients</p>
+                </li>
+                <li><a href="#">How to Hire</a></li>
+                <li><a href="#">Talent Marketplace</a></li>
+                <li><a href="#">Project Catalog</a></li>
+                <li><a href="#">Talent Scout</a></li>
+                <li><a href="#">Hire an Agency</a></li>
+                <li><a href="#">Enterprise</a></li>
+                <li><a href="#">Payroll Services</a></li>
+                <li><a href="#">Direct Contracts</a></li>
+                <li><a href="#">Hire Worldwide</a></li>
+                <li><a href="#">Hire in the USA</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <p>For Talent</p>
+                </li>
+                <li><a href="#">How to Find Work</a></li>
+                <li><a href="#">Direct Contracts</a></li>
+                <li><a href="#">Find Freelance Jobs Worldwide</a></li>
+                <li><a href="#">Find Freelance Jobs in the USA</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <p>Resources</p>
+                </li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Success Stories</a></li>
+                <li><a href="#">Upwork Reviews</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+                <li><a href="#">Free Business Tools</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <p>Company</p>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Leadership</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Our Impact</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Trust, Safety & Security</a></li>
+                <li><a href="#">Modern Slavery Statement</a></li>
+            </ul>
+        </div>
+        <div class="d-flex justify-content-between bb p-1 pb-2">
+            <section class="d-flex align-items-center">
+                <span class="me-3">Follow Us</span>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube-play"></i>
+                <i class="fa fa-instagram"></i>
+            </section>
+            <section class="d-flex align-items-center">
+                <span class="me-3">Mobile app</span>
+                <i class="fa fa-apple"></i>
+                <i class="fa fa-android"></i>
+            </section>
+        </div>
+        <section class="d-flex mt-2 bb whitespa">
+            <section class="borderight pe-4">
+                <span>&copy; 2015-2022 Softwork Global Inc.</span>
+            </section>
+            <section class="d-flex ps-4">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">CA Notice at Collection</a>
+                <a href="#">Cookie Settings</a>
+                <a href="#">Accessibility</a>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
+<script src="./Landing.js"></script>

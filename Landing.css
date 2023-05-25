@@ -1,0 +1,490 @@
+body{
+    font-size:15px;
+    line-height:18px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+nav{
+    position:fixed!important;
+    top:0px;
+    z-index:2000;
+    width:92%;
+    background-color:white;
+    color:rgb(113, 126, 105);
+    align-items: center;
+    margin:0px 4%;
+}
+.navup{
+    border-bottom:1px solid lightgrey;
+    width:100%;
+}
+.l1{
+    color:grey;
+    text-decoration:none;
+}
+.l1:hover{
+    color:rgb(20, 168, 0);
+}
+.firstlink{
+    color:rgb(20, 168,0);
+    font-size:20px;
+}
+.firstlink:hover{
+    color: rgb(20, 168, 0);
+}
+.i2{
+    display: none;
+}
+.dropnavdiv:hover .i2{
+    display:flex;
+}
+.dropnavdiv:hover .i1{
+    display:none;
+}
+p{
+    margin:0px;
+    margin-right:10px;
+}
+.dropnavdiv span{
+    font-size:15px;
+}
+.dropnavdiv:hover span{
+    color:rgb(20, 168,0);
+}
+.fa-angle-down,.fa-angle-up{
+    font-size:10px!important;
+}
+.fa-search{
+    font-size:12px!important;
+}
+.indiv{
+    border:1px solid lightgrey;
+    height:40px;
+    width:250px;
+    border-radius:50px;
+}
+input{
+    border:none;
+    color:grey;
+}
+input:focus{
+    outline:0px;
+}
+.btngreen{
+    border-radius:50px;
+    width:120px;
+    background-color:rgb(20, 168,0);
+}
+.maind-none{
+    width:100%;
+    color:rgb(113, 126, 105);
+    box-shadow:0px 1px 5px lightgrey;
+}
+#maind-none1{
+    display:none;
+    padding-bottom:20px;
+}
+#maind-none2{
+display:none;
+padding-bottom:20px;
+}
+#maind-none3{
+display:none;
+justify-content:space-around;
+padding-bottom:20px;
+}
+.divbackgol{
+    width:250px;
+    border-radius:5px;
+    padding:20px;
+}
+.divbackgol:hover{
+    background-color:rgb(240, 247, 245);
+}
+.secbackgol section{
+    width:250px;
+    border-radius:5px;
+}
+.slibgwid section{
+    width:400px;
+    border:1px solid lightgrey;
+}
+.secbackgol section:hover{
+    background-color:rgb(240, 247, 245);
+}
+.divd-none1{
+    width:360px;
+    padding-right:40px;
+    border-right:1px solid rgb(199, 196, 196);
+}
+.divd-none1 div{
+    margin-bottom:5px;
+    padding:15px 17px 15px 12px;
+}
+.divd-none1 #paj{
+    background-color:rgb(240, 247, 245);
+}
+.divd-none1 h5{
+    font-size:15px;
+    margin-bottom:2px;
+}
+#divchange2,#divchange3{
+    display:none;
+}
+.fa-angle-right{
+    color:rgb(20, 168,0);
+    font-size:25px;
+}
+.secnull{
+    width:48px;
+    height:4px;
+    background-color:rgb(20, 168,0);
+}
+.divd-none2 strong{
+    color:black;
+    font-weight: 500;
+    font-size:18px;
+}
+.divd-none2 sup{
+    color:rgb(113, 126, 105);
+    font-size:7px;
+}
+.cardsechmain{
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width: 550px;
+}
+.cardsech{
+    border:1px solid lightgrey;
+    text-align: center;
+    border-radius:4px;
+    width:140px;
+    margin-bottom:30px;
+}
+.cardsech p{
+    margin:15px 0px;
+}
+.green{
+    color: rgb(20, 168,0);
+    text-decoration: none;
+}
+.green:hover{
+    color: rgb(20, 168, 0);
+}
+li{
+    list-style-type:none;
+    padding:10px;
+    width:230px;
+}
+li:hover{
+    background-color:rgb(240, 247, 245);
+}
+li a, li a:hover{
+    text-decoration:none;
+    color:rgb(75, 74, 74);
+    font-size:14px;
+}
+.linkmain{
+    position:sticky!important;
+    top:73px;
+    z-index:1500;
+    width:100%;
+    background-color:white;
+    padding-left:50px;
+    padding-right:13%;
+    font-size:16px;
+}
+.linkmain a,section{
+    font-size:14px;
+    text-decoration:none;
+    color:rgb(113, 126, 105);
+}
+.linkmain a:hover{    
+    color:rgb(20, 168, 0);
+}
+.dropsm:hover .dropsec{
+    display:block;
+}
+.dropsec{
+    display:none;
+    position:absolute;
+    right:200px;
+    width:250px;
+    box-shadow:0px 0px 10px lightgrey;
+}
+.hogreen:hover{
+    color:rgb(20, 168, 0);
+}
+.dropsec p{
+    width:100%;
+    margin:0px;
+}
+.dropsec p:hover{
+    background-color:lightgrey;
+    color:rgb(20, 168, 0);
+}
+.bodymain{
+    padding-top:3%;
+    padding-left:50px;
+    padding-right:50px;
+}
+.text-green{
+    color:rgb(20, 168, 0);
+    font-size:80px;
+    line-height:80px;
+}
+.textgrey{
+    color:grey;
+    font-size:25px;
+}
+.btn2{
+    border-radius:50px;
+    width:120px;
+    color: rgb(20, 168, 0);
+    border:1px solid rgb(20, 168, 0);
+}
+.logos{
+    margin-top:60px;
+}
+.text-grey{
+    color:grey;
+    font-size:17px;
+}
+.divlargetext h2{
+    font-size:40px;
+}
+.divlargetext small,a{
+    font-size:17px;
+}
+.divlargetext a{
+    color: rgb(20, 168, 0);
+}
+.divlargetext a:hover{
+    text-decoration:underline!important;
+    color: rgb(20, 168, 0);
+}
+.divcard{
+    flex-wrap: wrap;
+}
+.divcard .card{
+    padding:20px 20px;
+    width:23%;
+    border:none;
+    border-radius:10px;
+    height: 130px;
+    margin-bottom:15px;
+    background-color:rgb(242, 247, 242);
+}
+.divcard .card:hover{
+    background-color:rgb(226, 224, 224);
+}
+.card h4{
+    font-size:25px;
+    margin-bottom:12px;
+}
+.card small{
+    font-size:16px;
+}
+.bodymain1{
+    margin:50px 55px;
+    border:1px solid lightgrey;
+    border-radius:5px;
+    padding:25px;
+}
+.bodymain1 small{
+    font-size:16px;
+}
+.btn-green{
+    background-color:rgb(20, 168, 0);
+    border-radius:50px;
+}
+.bodymain2{
+    margin:120px 74px;
+}
+.largeimage{
+    background-color:rgb(242, 247, 242);
+    width:63%;
+    border-radius:10px;
+    padding:55px 0px 30px 30px;
+}
+.largeimage h2{
+    font-size:50px;
+}
+.largeimage i{
+    font-size:24px;
+}
+.fa-dollar{
+    width:22px;
+    height:22px;
+    font-size:20px!important;
+    border-radius:100%;
+}
+.iconflexedtext small{
+    font-size:15px;
+}
+.absoluteimage{
+    position:absolute;
+    left:620px;
+    margin-top:-130px;
+}
+.largeimage1{
+    border-radius:10px;
+    width:30%;
+    background-color:rgb(20, 168, 0);
+    color:white;
+    padding:150px 10px 30px 30px;
+}
+.largeimage1 h4{
+    font-size:32px;
+}
+/* .backgroundmain{
+    border-radius:10px;
+    background-image: url(https://www.upwork.com/static/assets/Brontes/f74e21c3/img/find-talent-mobile.11b9e0a.jpg);
+    background-size:cover;
+    background-position:top;
+    overflow:hidden;
+} */
+.imgflex{
+    border-radius:20px;
+    height:620px;
+}
+.divimgflex{
+    width:47%;
+    background-color:rgb(31,87,195);
+}
+.divimgflex h1{
+    font-size:65px;
+    line-height:56px;
+}
+.divimgflex h5{
+    font-size:16px;
+}
+.divimgflex button{
+    font-size:13px;
+    border-radius:50px;
+}
+.divimgflex a{
+    text-decoration:none;
+}
+.marginup{
+    margin-top:160px;
+}
+.bordertop{
+    margin-top:160px;
+    border-top: 1px solid;
+}
+.bgblueish{
+    background-color:rgb(19,84,78);
+    border-radius:10px;
+    width:45%;
+}
+.bgreddish{
+    background-color: rgb(188,81,27);
+    border-radius:10px;
+    width:45%;
+}
+.backgroundsec{
+    background-image:url(https://www.upwork.com/static/assets/Brontes/f0827375/img/company-logos-cover.b79c103.jpg);
+    background-size:contain;
+    flex-direction: row-reverse;
+}
+.bggreen{
+    background-color:rgb(0, 30, 0);
+    flex-direction:column;
+    width:52%;
+    height:100%;
+}
+.bggreen p{
+    font-size:25px;
+}
+.bggreen img,p{
+    margin-top:35px;
+}
+.carbtn{
+    margin:auto;
+    margin-left:-40px;
+}
+.carsp,.carbtn{
+    width:80px;
+    height:80px;
+    display:flex;
+    justify-content:center;
+    background-color:rgb(20, 168, 0);
+    border-radius:100%;
+}
+.carsp i{
+    font-size:50px;
+}
+.hgreen h2{
+    color:lightgrey;
+}
+.hgreen h2:hover{
+    color:rgb(20, 168, 0);
+}
+.hgreen sup{
+    font-size:15px;
+}
+.linkmain1 li{
+    list-style-type:none;
+    width:max-content;
+}
+.linkmain1 li:hover{
+    background-color:white;
+}
+.linkmain1 li a{
+    text-decoration:none;
+    font-size:24px;
+    color: grey;
+}
+.linkmain1 li a:hover{
+    color:rgb(20, 168, 0);
+}
+.lastmain{
+    background-color:rgb(0, 30, 0);
+    padding:20px 120px 20px 50px;
+}
+.lastmain li{
+    width:max-content;
+    color:white;
+    font-size:12px;
+}
+.lastmain li:hover{
+    background-color:rgb(0, 30, 0);
+}
+.lastmain a{
+    color:white;
+    font-size:12px;
+}
+.lastmain a:hover{
+    text-decoration:underline;
+    color:white;
+}
+.bb{
+    margin-left:40px;
+    border-bottom:1px solid white;
+}
+.bb span{
+    color:white;
+    font-size:12px;
+}
+.bb i{
+    display: flex;
+    margin-right:10px;
+    justify-content: center;
+    align-items: center;
+    width:27px;
+    height:27px;
+    border:1px solid white;
+    border-radius:100%;
+    font-size:14px;
+    color:white;
+}
+.whitespa{
+    border:none;
+}
+.borderight{
+    border-right:1px solid white;
+}
+.whitespa a{
+    text-decoration: none;
+    margin-right:10px;
+}
